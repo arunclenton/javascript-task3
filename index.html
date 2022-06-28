@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>product name</th>
+            <th>quntity</th>
+            <th>unit prize</th>
+            <th>prize</th>
+        </tr>
+        <tr>
+            <td>bat</td>
+            <td>
+            <input type ="number" id="qty" onmouseleave="add()"></td>
+            <td value="1000"  id="unit">1000</td>
+            <td id="prize"></td>
+        </tr>
+        <tr>
+            <td>ball</td>
+            <td>
+                <input type ="number"  id="qty1" onmouseleave="add()"></td>
+            <td  value="30" id="unit1">30</td>
+            <td id="prize1"></td>
+        </tr>
+        <tr>
+            <td>pad</td>
+            <td>
+                <input type ="number"  id="qty2" onmouseleave="add()"></td>
+            <td   value="500"id="unit2">500</td>
+            <td id="prize2"></td>
+        </tr>
+        <tr>
+            <td>helmet</td>
+            <td>
+                <input type ="number" id="qty3" onmouseleave="add()"></td>
+            <td value="1000" id="unit3">1000</td>
+            <td id="prize3"></td>
+        </tr>
+        <tr>
+            <td>stump</td>
+            <td>
+                <input type ="number" id="qty4" onmouseleave="add()"></td>
+            <td  value="100" id="unit4">100</td>
+            <td id="prize4"></td>
+
+        </tr>
+        <tr>
+             <td colspan="3">total</td>
+            <td id="all" ></td>
+        </tr>
+        <tr>
+            <td colspan="3">tax 18%</td>
+            <td id="cole"></td>
+        </tr>
+        <tr>
+            <td colspan="3">grade</td>
+            <td id="cole1"></td>
+        </tr>
+    </table>
+    <script src="table.js"></script>
+</body>
+
+</html>

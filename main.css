@@ -1,0 +1,8 @@
+ table, th ,td{
+    border: 1px solid;
+    width: 630px;
+    height: 50px;
+}
+table input{
+    border: 1px solid #fff;
+}
